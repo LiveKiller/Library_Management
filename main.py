@@ -38,7 +38,7 @@ print(newImageSizeHeight)'''
 imgb = PIL.Image.open("lib.jpg")
 img = ImageTk.PhotoImage(imgb)
 
-Canvas1 = Canvas(root)
+#Canvas1 = Canvas(root)
 
 Canvas1.create_image(350, 250, image=img)
 Canvas1.config(bg="black", width=1770, height=10)
@@ -57,7 +57,7 @@ btn2 = Button(root, text="Delete Book", bg='black', fg='white', command=delete)
 btn2.place(relx=0.28, rely=0.5, relwidth=0.45, relheight=0.1)
 
 btn3 = Button(root, text="View Book List", bg='black', fg='white', command=View)
-btn3.place(relx=0.28, rely=0.6, relwidth=0.45, relheight=0.1)
+#btn3.place(relx=0.28, rely=0.6, relwidth=0.45, relheight=0.1)
 
 btn4 = Button(root, text="Issue Book to Student", bg='black', fg='white', command=issueBook)
 btn4.place(relx=0.28, rely=0.7, relwidth=0.45, relheight=0.1)
@@ -70,7 +70,6 @@ menubar = Menu(root, background='blue', fg='white')
 credits = Menu(menubar, tearoff=False, background='#f45c43')
 menubar.add_cascade(label="Credits", menu=credits)
 credits.add_command(label='Savitender Singh', background='yellow', command=None)
-credits.add_command(label='Sarthak Gomber', background='#ef629f', command=None)
 
 credits.add_separator()
 credits.add_command(label='Exit', command=root.destroy)
