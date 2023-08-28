@@ -33,4 +33,7 @@ password and username as it's pretty common), and change the database name in th
 ## Step 5
 After succesfully doing step 4, run the `main.py`
 
+# Note
 
+You are allowed to use this code anywhere as long as it doesn't involve any indisciplinary activites. YOU WILL BE RESPONSIBLE FOR ANY ACTION TAKE AGAINST YOU NONE ELSE.
+If using this project, it'd be appreciated if you let me know that you're this (just a request as it'll make me happy lmao that someone is using this thing i made back in 10th. rest is upto you)
